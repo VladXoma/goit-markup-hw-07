@@ -1,0 +1,41 @@
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.features-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.features-list .item {
+    flex-basis: 270px;
+}
+
+.features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-bg-color);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.features-list .title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.features-list .text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    margin-bottom: 0;
+}
