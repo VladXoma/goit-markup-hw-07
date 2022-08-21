@@ -8,11 +8,11 @@
     column-gap: 30px;
 }
 
-.work-list .item {
+.work-list__item {
     position: relative;
 }
 
-.work-list .title {
+.work-list__title {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -25,9 +25,10 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.work-title,
+.work__title,
 .team-title,
 .clients-title {
     margin-bottom: 50px;
