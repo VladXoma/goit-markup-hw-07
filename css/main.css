@@ -70,7 +70,7 @@ address {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -316,8 +316,8 @@ address {
 
 body {
   font-family: "Roboto", "Inter", "Open Sans", sans-serif;
-  background-color: var(--brand-bg-color);
-  color: var(--brand-text-color);
+  background-color: #ffffff;
+  color: #212121;
 }
 
 .header {

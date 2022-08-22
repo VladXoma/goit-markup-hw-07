@@ -22,3 +22,10 @@ $colors: (
 @function getColor($key) {
 @return map-get($colors, $key);
 }
+
+$fontFam: (
+'Raleway': Raleway);
+
+@function getFontFam($key) {
+    @return map-get($fontFam, $key);
+}
