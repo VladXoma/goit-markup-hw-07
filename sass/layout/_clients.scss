@@ -5,32 +5,33 @@
     gap: 30px;
 }
 
-.clients-link {
+.clients-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--clients-icons-primary-color);
+    border: 1px solid getColor('clients-icons-primary-color');
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    color: var(--clients-icons-primary-color);
+    color: getColor('clients-icons-primary-color');
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        border-color: getColor('accent-color');
+        }
 }
 
-.clients-list .icon {
+.clients-list__icon {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
     fill: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .clients-list__link:hover &,
+    .clients-list__link:focus & {
+        fill: getColor('accent-color');
+        }
 }
 
-.clients-link:hover .icon,
-.clients-link:focus .icon {
-    fill: var(--accent-color);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-    border-color: var(--accent-color);
-}
+

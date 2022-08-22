@@ -15,7 +15,8 @@ $colors: (
 'border-color': #eeeeee,
 'clients-icons-primary-color': #afb1b8,
 'brand-bg-modal-color': #ffffff,
-'brand-hover-focus-overlay-color': rgba(33, 150, 243, 0.9)
+'brand-hover-focus-overlay-color': rgba(33, 150, 243, 0.9),
+'work-list-title-bg-color': rgba(47, 48, 58, 0.8)
 );
 
 @function getColor($key) {
