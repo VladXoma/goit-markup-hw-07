@@ -25,29 +25,13 @@
         } 
         .hero__button {
             padding: 10px 32px;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.88;
-            letter-spacing: 0.06em;
+            @extend %btn;
             -webkit-box-align: center;
             -ms-flex-align: center;
-            align-items: center;
-            text-align: center;
-            color: getColor('white-text-color');
-            background: getColor('accent-color');
-            -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            border: none;
-            cursor: pointer;
+
             -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             -o-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-            &:hover,
-            &:focus {
-                background: getColor('hero-button-hover-focus-color');
-            }
         }
 }
 
